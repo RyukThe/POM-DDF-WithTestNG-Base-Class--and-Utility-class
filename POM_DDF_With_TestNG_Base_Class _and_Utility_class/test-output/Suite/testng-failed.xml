@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="swaglab_DDF_03.ClassTestNG">
+        <methods>
+          <include name="verifySwagLabHomeAddCartbutton"/>
+          <include name="verifySwagLabHomePageLogo"/>
+          <include name="loginINSwagLab"/>
+          <include name="openBrowser"/>
+          <include name="clsoeBrowser"/>
+          <include name="logoutFromSwagLab"/>
+        </methods>
+      </class> <!-- swaglab_DDF_03.ClassTestNG -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
